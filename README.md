@@ -17,6 +17,7 @@ Remove Paywall with the click of a button :point_up_2:
 5. Browse the internet without paywall :money_with_wings:
 
 ### Firefox
+
 > **Note**: Unless installed from official Add-Ons page, this step has to be repeated on each browser restart.
 
 > Currently extension is not available on Add-Ons Marketplace.
@@ -26,7 +27,6 @@ Remove Paywall with the click of a button :point_up_2:
 3. Click on `This Firefox` on the left menu
 4. Click on `Load Temporary Add-on`
 5. Go to the directory where repo was cloned and select any file inside of it.
-
 
 ## Usage
 

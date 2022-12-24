@@ -1,11 +1,11 @@
-chrome.action.onClicked.addListener((tab) => {
-	let url = new URL(tab.url)
+chrome.action.onClicked.addListener(() => {
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    const url = new URL(tabs[0].url)
 
-	if (url.protocol == "https:") {
-		chrome.tabs.update({
-			url: `https://12ft.io/${url.href}`,
-		});
-	}
-}
-);
-
+    if (url.protocol == "https:") {
+      chrome.tabs.update({
+        url: `https://12ft.io/${url.href}`,
+      })
+    }
+  })
+})
