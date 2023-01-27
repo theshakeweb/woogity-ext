@@ -1,7 +1,9 @@
 {
     "name": "Woogity",
     "description": "Remove Paywalls",
-
+    "version": "0.5",
+    "author": "Otto Rocket",
+    "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
