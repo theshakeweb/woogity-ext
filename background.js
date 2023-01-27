@@ -4,7 +4,7 @@ chrome.action.onClicked.addListener(() => {
 
     if (url.protocol == "https:") {
       chrome.tabs.update({
-        url: `https://12ft.io/${url.href}`,
+        url: `http://woogity/${url.href}`,
       })
     }
   })
