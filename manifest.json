@@ -1,9 +1,7 @@
 {
-    "name": "12ft",
-    "description": "Remove Paywalls using 12ft ladder",
-    "version": "0.6",
-    "author": "Yankee Maharjan",
-    "manifest_version": 3,
+    "name": "Woogity",
+    "description": "Remove Paywalls",
+
     "background": {
         "service_worker": "background.js"
     },
